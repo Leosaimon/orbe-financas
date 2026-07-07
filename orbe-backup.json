@@ -1,0 +1,2355 @@
+{
+  "app": "Orbe Finanças",
+  "version": 24,
+  "reason": "exportação manual",
+  "exportedAt": "2026-07-07T15:40:57.514Z",
+  "data": {
+    "version": 24,
+    "baseline": "jul2026-v2",
+    "cur": 1,
+    "cash": 9147.96,
+    "flowFilter": "income",
+    "cards": [
+      {
+        "id": "c6bank",
+        "name": "C6 Bank",
+        "limit": 5000,
+        "available": 38.04,
+        "dueDay": 10,
+        "closeDay": 3
+      },
+      {
+        "id": "inter",
+        "name": "Inter",
+        "limit": 11000,
+        "available": 7118.13,
+        "dueDay": 10,
+        "closeDay": 3
+      },
+      {
+        "id": "nubank",
+        "name": "Nubank",
+        "limit": 10000,
+        "available": 9487.2,
+        "dueDay": 10,
+        "closeDay": 3
+      }
+    ],
+    "tx": [
+      {
+        "id": "rvgke7gdgwrmr8cx4ed",
+        "type": "income",
+        "name": "Salário",
+        "category": "Trabalho",
+        "amount": 4600,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 25,
+        "status": {},
+        "payment": "Conta Corrente",
+        "note": "Cai dia 25 de cada mês"
+      },
+      {
+        "id": "jqamenkzrhmr8cx4ed",
+        "type": "income",
+        "name": "IFES",
+        "category": "Contrato",
+        "amount": 1300,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 18,
+        "status": {},
+        "payment": "Conta Corrente",
+        "note": "Cai entre dia 15 e 20"
+      },
+      {
+        "id": "qv72813fmlmr8cx4ed",
+        "type": "income",
+        "name": "Jaques",
+        "category": "Contrato",
+        "amount": 1000,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 20,
+        "status": {},
+        "payment": "Conta Corrente",
+        "note": "Cai dia 20"
+      },
+      {
+        "id": "gmt3e70n7emr8cx4ed",
+        "type": "income",
+        "name": "PMI mensal",
+        "category": "Contrato",
+        "amount": 700,
+        "start": 0,
+        "end": 11,
+        "recurrence": "monthly",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Conta Corrente",
+        "note": "12 parcelas de R$ 700 começando em julho. Os R$ 3.600 de junho já estão no caixa atual."
+      },
+      {
+        "id": "jtu7or785ofmr8cx4ed",
+        "type": "income",
+        "name": "Jihany",
+        "category": "Contrato",
+        "amount": 550,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 15,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Conta Corrente",
+        "note": "Parcela única, data variável"
+      },
+      {
+        "id": "ljuz1vpsujamr8cx4ed",
+        "type": "expense",
+        "name": "Empréstimo",
+        "category": "Dívidas",
+        "amount": 906.19,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 5,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Conta Corrente"
+      },
+      {
+        "id": "b7gvclfozkqmr8cx4ed",
+        "type": "expense",
+        "name": "Condomínio",
+        "category": "Moradia",
+        "amount": 260,
+        "start": 0,
+        "end": -1,
+        "recurrence": "monthly",
+        "dueDay": 10,
+        "status": {},
+        "payment": "Conta Corrente"
+      },
+      {
+        "id": "hwdcw5kgljnmr8cx4ed",
+        "type": "expense",
+        "name": "Apê / Aluguel",
+        "category": "Moradia",
+        "amount": 1140,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Conta Corrente"
+      },
+      {
+        "id": "4kg26qeomx5mr8cx4ed",
+        "type": "expense",
+        "name": "Google Drive",
+        "category": "Assinaturas",
+        "amount": 49.99,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "nn1wxrhn4qmr8cx4ed",
+        "type": "expense",
+        "name": "Apple",
+        "category": "Assinaturas",
+        "amount": 32.9,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "l9rwmxgs22emr8cx4ed",
+        "type": "expense",
+        "name": "Amazon Prime",
+        "category": "Assinaturas",
+        "amount": 19.9,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "inter"
+      },
+      {
+        "id": "gfil7absdtumr8cx4ed",
+        "type": "expense",
+        "name": "Netflix",
+        "category": "Assinaturas",
+        "amount": 20.9,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "inter"
+      },
+      {
+        "id": "gb876t33pxemr8cx4ed",
+        "type": "expense",
+        "name": "Spotify",
+        "category": "Assinaturas",
+        "amount": 23.9,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "inter"
+      },
+      {
+        "id": "9zatvvowkhbmr8cx4ed",
+        "type": "expense",
+        "name": "Dentista",
+        "category": "Saúde",
+        "amount": 300,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Conta Corrente"
+      },
+      {
+        "id": "qxj47b4ainmr8cx4ed",
+        "type": "expense",
+        "name": "Transporte",
+        "category": "Transporte",
+        "amount": 200,
+        "start": 0,
+        "end": -1,
+        "recurrence": "monthly",
+        "dueDay": 10,
+        "status": {},
+        "payment": "Conta Corrente"
+      },
+      {
+        "id": "n6qda2693jmr8cx4ed",
+        "type": "expense",
+        "name": "Pós-Graduação",
+        "category": "Educação",
+        "amount": 380,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 15,
+        "status": {},
+        "payment": "Conta Corrente"
+      },
+      {
+        "id": "37kt1ix31vxmr8cx4ed",
+        "type": "expense",
+        "name": "Gás",
+        "category": "Casa",
+        "amount": 15,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 15,
+        "status": {},
+        "payment": "Conta Corrente"
+      },
+      {
+        "id": "m8j6lk8ynamr8cx4ed",
+        "type": "expense",
+        "name": "Energia",
+        "category": "Casa",
+        "amount": 150,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 20,
+        "status": {},
+        "payment": "Conta Corrente"
+      },
+      {
+        "id": "0peid7io8zemr8cx4ed",
+        "type": "expense",
+        "name": "DAS",
+        "category": "Impostos",
+        "amount": 80,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 20,
+        "status": {},
+        "payment": "Conta Corrente"
+      },
+      {
+        "id": "kzcvgn2cwe9mr8cx4ed",
+        "type": "expense",
+        "name": "Psicólogo Aylla",
+        "category": "Saúde",
+        "amount": 200,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 20,
+        "status": {},
+        "payment": "Conta Corrente"
+      },
+      {
+        "id": "mwfj0f6g01hmr8cx4ed",
+        "type": "expense",
+        "name": "Academia",
+        "category": "Saúde",
+        "amount": 157,
+        "start": 0,
+        "end": -1,
+        "recurrence": "monthly",
+        "dueDay": 25,
+        "status": {},
+        "payment": "Conta Corrente"
+      },
+      {
+        "id": "lanv8kaklefmr8cx4ed",
+        "type": "expense",
+        "name": "Internet",
+        "category": "Casa",
+        "amount": 125,
+        "start": 0,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 25,
+        "status": {},
+        "payment": "Conta Corrente"
+      },
+      {
+        "id": "k7xl0yemm2hmr8cx4ed",
+        "type": "expense",
+        "name": "Cinema",
+        "category": "Lazer",
+        "amount": 21,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "xgvfuoji4ulmr8cx4ed",
+        "type": "expense",
+        "name": "iFood",
+        "category": "Alimentação",
+        "amount": 23.9,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "ary2qng5u2jmr8cx4ed",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte",
+        "amount": 47.55,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "5i4jvoz3gkfmr8cx4ed",
+        "type": "expense",
+        "name": "iFood Marmita",
+        "category": "Alimentação",
+        "amount": 20.89,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "y36v60kmv2mr8cx4ed",
+        "type": "expense",
+        "name": "Perfume",
+        "category": "Compras",
+        "amount": 135.6,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "f37g5i9001mr8cx4ed",
+        "type": "expense",
+        "name": "Uber Praça do Papa",
+        "category": "Transporte",
+        "amount": 62.5,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "pusrps5wxttmr8cx4ed",
+        "type": "expense",
+        "name": "iFood",
+        "category": "Alimentação",
+        "amount": 20.89,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "xtvalgwsuogmr8cx4ed",
+        "type": "expense",
+        "name": "Hambúrguer",
+        "category": "Alimentação",
+        "amount": 26.99,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "ebeaw3l8wvmr8cx4ed",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte",
+        "amount": 15.93,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "ggrohvw84omr8cx4ed",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte",
+        "amount": 12.91,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "ezms89mzpukmr8cx4ed",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte",
+        "amount": 25.92,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "tma937vc32dmr8cx4ed",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte",
+        "amount": 8.74,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "i7qp5hxf9rsmr8cx4ed",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte",
+        "amount": 17.98,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "c82t5glnn1mr8cx4ed",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte",
+        "amount": 7.12,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "z9iy2z9ahyhmr8cx4ed",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte",
+        "amount": 13.91,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "9pumt9xihvmr8cx4ed",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte",
+        "amount": 9.58,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "ayh4w3vjwbmr8cx4ed",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte",
+        "amount": 6.39,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "5w4dxbovkofmr8cx4ed",
+        "type": "expense",
+        "name": "Pizza",
+        "category": "Alimentação",
+        "amount": 30.05,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "hgjvydxlbimr8cx4ed",
+        "type": "expense",
+        "name": "Refrigerante",
+        "category": "Alimentação",
+        "amount": 5.29,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "zvlq97ecizcmr8cx4ed",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte",
+        "amount": 7.3,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "m0nx9tv3kzemr8cx4ed",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte",
+        "amount": 13.6,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "yfse5qhwkgpmr8cx4ed",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte",
+        "amount": 7.14,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank"
+      },
+      {
+        "id": "9xjizpgtpikmr8cx4ed",
+        "type": "expense",
+        "name": "Hambúrguer",
+        "category": "Alimentação",
+        "amount": 59.95,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "inter"
+      },
+      {
+        "id": "y4s0hn66ctfmr8cx4ed",
+        "type": "expense",
+        "name": "Exame de vista",
+        "category": "Saúde",
+        "amount": 85,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "inter"
+      },
+      {
+        "id": "qf3dgk9kwomr8cx4ed",
+        "type": "expense",
+        "name": "Mercado",
+        "category": "Alimentação",
+        "amount": 113.85,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "inter"
+      },
+      {
+        "id": "jvj3vuosrcjmr8cx4ed",
+        "type": "expense",
+        "name": "Almoço na Pós-Graduação",
+        "category": "Alimentação",
+        "amount": 81.29,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "inter"
+      },
+      {
+        "id": "sue6xey18iemr8cx4ed",
+        "type": "expense",
+        "name": "Hambúrguer",
+        "category": "Alimentação",
+        "amount": 39.44,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "inter"
+      },
+      {
+        "id": "docwtlu30afmr8cx4ed",
+        "type": "expense",
+        "name": "Refrigerante",
+        "category": "Alimentação",
+        "amount": 5.29,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "inter"
+      },
+      {
+        "id": "6ygapiokcyrmr8cx4ed",
+        "type": "expense",
+        "name": "Janta (food)",
+        "category": "Alimentação",
+        "amount": 25.98,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "inter"
+      },
+      {
+        "id": "1tuyxinkyb2hmr8cx4ed",
+        "type": "expense",
+        "name": "Pastel",
+        "category": "Alimentação",
+        "amount": 10,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "inter"
+      },
+      {
+        "id": "ov9diq2e7qmr8cx4ed",
+        "type": "expense",
+        "name": "Mercado",
+        "category": "Alimentação",
+        "amount": 15.25,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "inter"
+      },
+      {
+        "id": "yn9knlxj4almr8cx4ed",
+        "type": "expense",
+        "name": "Cabelo e Barba",
+        "category": "Cuidados pessoais",
+        "amount": 60,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "inter"
+      },
+      {
+        "id": "vtw54v5whndmr8cx4ed",
+        "type": "expense",
+        "name": "Hambúrguer",
+        "category": "Alimentação",
+        "amount": 52.8,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "inter"
+      },
+      {
+        "id": "p0640eii1cmr8cx4ed",
+        "type": "expense",
+        "name": "Nubank (fatura)",
+        "category": "Cartão",
+        "amount": 323.06,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "nubank"
+      },
+      {
+        "id": "jzapb5l0rnfmr8cx4ed",
+        "type": "expense",
+        "name": "Nubank (fatura)",
+        "category": "Cartão",
+        "amount": 189,
+        "start": 1,
+        "end": 1,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {},
+        "payment": "nubank"
+      },
+      {
+        "id": "590tusgusr4mr8cz123",
+        "type": "expense",
+        "name": "Condomínio",
+        "category": "Moradia",
+        "amount": 261.88,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Pix",
+        "reimbursable": false
+      },
+      {
+        "id": "1by3btnccv4mr8cz123",
+        "type": "expense",
+        "name": "Condomínio",
+        "category": "Moradia",
+        "amount": 260,
+        "start": 1,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 10,
+        "status": {},
+        "payment": "Conta Corrente"
+      },
+      {
+        "id": "vx9u9jargvhmr8d0l22",
+        "type": "expense",
+        "name": "Academia",
+        "category": "Saúde",
+        "amount": 157,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 25,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "inter",
+        "reimbursable": false
+      },
+      {
+        "id": "bejhiim52q7mr8d0l22",
+        "type": "expense",
+        "name": "Academia",
+        "category": "Saúde",
+        "amount": 157,
+        "start": 1,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 25,
+        "status": {},
+        "payment": "Conta Corrente"
+      },
+      {
+        "id": "tkp99convdmr8d516c",
+        "type": "income",
+        "name": "Edição de vídeo",
+        "category": "Freelancer ",
+        "amount": 90,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Pix",
+        "reimbursable": false
+      },
+      {
+        "id": "akzduvl583mr8d5gq4",
+        "type": "income",
+        "name": "Edição de Vídeo",
+        "category": "Freelancer",
+        "amount": 100,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Pix",
+        "reimbursable": false
+      },
+      {
+        "id": "77jb35pus18mr8d5vt9",
+        "type": "income",
+        "name": "Edição de Vídeo",
+        "category": "Freelancer ",
+        "amount": 100,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Pix",
+        "reimbursable": false
+      },
+      {
+        "id": "fi2betq8mmemr8d8mjy",
+        "type": "income",
+        "name": "Edição de vídeo",
+        "category": "Freelancer",
+        "amount": 100,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Pix",
+        "reimbursable": false
+      },
+      {
+        "id": "vi8mrf8z23mr8da0s7",
+        "type": "income",
+        "name": "Venda da Bicicleta",
+        "category": "Geral",
+        "amount": 150,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {},
+        "payment": "Pix",
+        "reimbursable": false
+      },
+      {
+        "id": "pg8mftj59fkmr8dcx7q",
+        "type": "expense",
+        "name": "Uber pra minha irmã",
+        "category": "Transporte ",
+        "amount": 27.1,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Pix",
+        "reimbursable": false
+      },
+      {
+        "id": "ihgiig9642mr8ddcyg",
+        "type": "expense",
+        "name": "Transporte",
+        "category": "Transporte",
+        "amount": 80,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "inter",
+        "reimbursable": false
+      },
+      {
+        "id": "1bk9mhupcptmr8ddcyg",
+        "type": "expense",
+        "name": "Transporte",
+        "category": "Transporte",
+        "amount": 200,
+        "start": 1,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 10,
+        "status": {},
+        "payment": "Conta Corrente"
+      },
+      {
+        "id": "yu8ocnefimmr8ddzp3",
+        "type": "expense",
+        "name": "Transporte de Ônibus",
+        "category": "Transporte ",
+        "amount": 50,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank",
+        "reimbursable": false
+      },
+      {
+        "id": "6ncivgg54vimr8djv0o",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte ",
+        "amount": 8.4,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank",
+        "reimbursable": false
+      },
+      {
+        "id": "hlpbyv4k0wfmr8dkz7q",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte ",
+        "amount": 7.3,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "c6bank",
+        "reimbursable": false
+      },
+      {
+        "id": "yvvto6215dmr8dnxjb",
+        "type": "expense",
+        "name": "Compra de Flores pra Aylla",
+        "category": "Geral",
+        "amount": 85,
+        "start": 1,
+        "end": 1,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {},
+        "payment": "nubank",
+        "reimbursable": false
+      },
+      {
+        "id": "a5bivc61yz8mr8dokx6",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte ",
+        "amount": 7.5,
+        "start": 1,
+        "end": 1,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {},
+        "payment": "nubank",
+        "reimbursable": false
+      },
+      {
+        "id": "r4kc99s9l6dmr8dpa09",
+        "type": "expense",
+        "name": "Seguro Moto (Entrada)",
+        "category": "Transporte ",
+        "amount": 280,
+        "start": 1,
+        "end": 1,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {},
+        "payment": "nubank",
+        "reimbursable": false
+      },
+      {
+        "id": "pw5xlw0h7rdmr8dr8dq",
+        "type": "expense",
+        "name": "Uber",
+        "category": "Transporte ",
+        "amount": 28.79,
+        "start": 1,
+        "end": 1,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {},
+        "payment": "nubank",
+        "reimbursable": false
+      },
+      {
+        "id": "o3u4qh42zrdmr8dyihq",
+        "type": "expense",
+        "name": "Pagar Marciel",
+        "category": "Terceirizado",
+        "amount": 100,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Pix",
+        "reimbursable": false
+      },
+      {
+        "id": "uy9g7oyzk0jmr8ebnph",
+        "type": "expense",
+        "name": "Feira de Empreendorismo (Aylla)",
+        "category": "Geral",
+        "amount": 18,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Pix",
+        "reimbursable": false
+      },
+      {
+        "id": "127msmn2jakmr8ednkj",
+        "type": "expense",
+        "name": "Shoppe",
+        "category": "Geral",
+        "amount": 37.94,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Pix",
+        "reimbursable": false
+      },
+      {
+        "id": "p72v7v9jhnmr8eg0su",
+        "type": "expense",
+        "name": "Prova da Aylla",
+        "category": "Geral",
+        "amount": 60,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Pix",
+        "reimbursable": false
+      },
+      {
+        "id": "b03jm64ze6dmr8eks4m",
+        "type": "income",
+        "name": "Juros Compostos",
+        "category": "Lucro ",
+        "amount": 17.9,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Pix",
+        "reimbursable": false
+      },
+      {
+        "id": "eumttt0c38vmr8emaaw",
+        "type": "expense",
+        "name": "Pix pra Maria Alice",
+        "category": "Geral",
+        "amount": 15,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Pix",
+        "reimbursable": false
+      },
+      {
+        "id": "g1aj69spbrmmr8eqj8b",
+        "type": "expense",
+        "name": "Diferença do meu saldo em conta",
+        "category": "Geral",
+        "amount": 12.53,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Pix",
+        "reimbursable": false
+      },
+      {
+        "id": "kszy6yie0cfmr8euj12",
+        "type": "income",
+        "name": "Bicicleta",
+        "category": "Venda",
+        "amount": 150,
+        "start": 1,
+        "end": 1,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {},
+        "payment": "Pix",
+        "reimbursable": false
+      },
+      {
+        "id": "y7100knhlqqmr8evsy5",
+        "type": "expense",
+        "name": "Seguro da Bicicleta",
+        "category": "Transporte ",
+        "amount": 100,
+        "start": 1,
+        "end": null,
+        "recurrence": "monthly",
+        "dueDay": 10,
+        "status": {},
+        "payment": "Conta Corrente",
+        "reimbursable": false
+      },
+      {
+        "id": "9ebg3uonzamr99yu8p",
+        "type": "expense",
+        "name": "Livro da Aylla",
+        "category": "Geral",
+        "amount": 86.4,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 6,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Pix",
+        "reimbursable": false
+      },
+      {
+        "id": "35wxqmlm8momr9j3dry",
+        "type": "expense",
+        "name": "Liberação Miofascial",
+        "category": "Saúde e Bem-Estar",
+        "amount": 250,
+        "start": 1,
+        "end": 1,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {},
+        "payment": "c6bank",
+        "reimbursable": false
+      },
+      {
+        "id": "6afno92n99bmr9lt7uw",
+        "type": "expense",
+        "name": "Bolo de Pote",
+        "category": "Alimentação ",
+        "amount": 24,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 6,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Conta Corrente",
+        "reimbursable": false
+      },
+      {
+        "id": "wr3r82cubpemr9u61t9",
+        "type": "income",
+        "name": "Reembolso da Casa",
+        "category": "Reembolso ",
+        "amount": 100,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 6,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Dinheiro",
+        "reimbursable": false
+      },
+      {
+        "id": "la8u9x3uthfmr9uq7re",
+        "type": "expense",
+        "name": "Livro da Aylla",
+        "category": "Geral",
+        "amount": 86.4,
+        "start": 1,
+        "end": 1,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {},
+        "payment": "Conta Corrente",
+        "reimbursable": false
+      },
+      {
+        "id": "2a5iyveyq6xmr9uqink",
+        "type": "expense",
+        "name": "Livro da Aylla",
+        "category": "Geral",
+        "amount": 86.4,
+        "start": 2,
+        "end": 2,
+        "recurrence": "once",
+        "dueDay": 10,
+        "status": {},
+        "payment": "Conta Corrente",
+        "reimbursable": false
+      },
+      {
+        "id": "me4wv5ftydkmraj44yx",
+        "type": "income",
+        "name": "Juros Compostos",
+        "category": "Contrato",
+        "amount": 2.12,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 7,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Conta Corrente",
+        "reimbursable": false
+      },
+      {
+        "id": "y6xagys5tf9mraj4sh9",
+        "type": "income",
+        "name": "Juros Compostos",
+        "category": "Investimento ",
+        "amount": 2.01,
+        "start": 0,
+        "end": 0,
+        "recurrence": "once",
+        "dueDay": 6,
+        "status": {
+          "2026-07": "paid"
+        },
+        "payment": "Pix",
+        "reimbursable": false
+      }
+    ],
+    "parcels": [
+      {
+        "id": "gciv4m5lzhcmr8cx4ed",
+        "name": "Danúbia (Móveis)",
+        "category": "Casa",
+        "amount": 389.8,
+        "start": 0,
+        "total": 10,
+        "paidBefore": 2,
+        "payment": "Conta Corrente",
+        "status": {
+          "2026-07": "paid"
+        }
+      },
+      {
+        "id": "cstz9lxahx6mr8cx4ed",
+        "name": "Microondas",
+        "category": "Casa",
+        "amount": 100,
+        "start": 0,
+        "total": 1,
+        "paidBefore": 1,
+        "payment": "Conta Corrente",
+        "status": {}
+      },
+      {
+        "id": "sr3xfzdflgomr8cx4ed",
+        "name": "Móveis da casa",
+        "category": "Casa",
+        "amount": 200,
+        "start": 0,
+        "total": 10,
+        "paidBefore": 7,
+        "payment": "Conta Corrente",
+        "status": {}
+      },
+      {
+        "id": "j3eo67oekgjmr8cx4ed",
+        "name": "Guarda-Roupa",
+        "category": "Casa",
+        "amount": 99.87,
+        "start": 0,
+        "total": 8,
+        "paidBefore": 0,
+        "payment": "c6bank",
+        "status": {
+          "2026-07": "paid"
+        }
+      },
+      {
+        "id": "ofi20gzg90amr8cx4ed",
+        "name": "Notebook",
+        "category": "Trabalho",
+        "amount": 140,
+        "start": 0,
+        "total": 5,
+        "paidBefore": 0,
+        "payment": "c6bank",
+        "status": {
+          "2026-07": "paid"
+        }
+      },
+      {
+        "id": "bc967njy5wumr8cx4ed",
+        "name": "Óculos",
+        "category": "Saúde",
+        "amount": 91.67,
+        "start": 0,
+        "total": 6,
+        "paidBefore": 0,
+        "payment": "inter",
+        "status": {
+          "2026-07": "paid"
+        }
+      },
+      {
+        "id": "m3chvrq18camr8dq8s7",
+        "name": "Bike Elétrica",
+        "category": "Transporte ",
+        "amount": 779,
+        "start": 1,
+        "total": 10,
+        "paidBefore": 0,
+        "payment": "nubank",
+        "status": {}
+      },
+      {
+        "id": "wc6yvwfaqkgmr9u9cn4",
+        "name": "Sapato da Aylla",
+        "category": "Geral",
+        "amount": 66.64,
+        "start": 0,
+        "total": 3,
+        "paidBefore": 0,
+        "payment": "inter",
+        "status": {
+          "2026-07": "paid"
+        }
+      }
+    ],
+    "goals": [
+      {
+        "id": "sip801pv82omr8cx4ed",
+        "name": "Reserva de emergência",
+        "target": 30000,
+        "current": 0,
+        "monthly": 0
+      },
+      {
+        "id": "po4tbppe1rqmr8cx4ed",
+        "name": "Investimentos longo prazo",
+        "target": 50000,
+        "current": 0,
+        "monthly": 0
+      }
+    ],
+    "closed": {},
+    "ui": {
+      "collapsed": {
+        "panel-cards": true,
+        "panel-fixed": true,
+        "panel-income": true,
+        "card-c6bank": true,
+        "card-inter": true,
+        "card-nubank": true,
+        "sec-income": true,
+        "sec-fixed": true,
+        "sec-cards": true,
+        "sec-reserve": false
+      }
+    },
+    "history": [
+      {
+        "id": "c4vmyx57zmfmraphf8c",
+        "at": "2026-07-07T13:49:58.236Z",
+        "type": "recebimento",
+        "item": "PMI mensal",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "yw2otocxu7mraj8og6",
+        "at": "2026-07-07T10:55:12.582Z",
+        "type": "exclusão",
+        "item": "Reembolso da Maria Alice",
+        "oldValue": {
+          "name": "Reembolso da Maria Alice",
+          "amount": 600,
+          "category": "Reembolso ",
+          "payment": "Pix",
+          "dueDay": 10,
+          "reimbursable": false
+        },
+        "newValue": {
+          "scope": "all"
+        },
+        "month": 0
+      },
+      {
+        "id": "vp8pvt9pn1pmraj4v1b",
+        "at": "2026-07-07T10:52:14.495Z",
+        "type": "recebimento",
+        "item": "Juros Compostos",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "df54hfi43zimraj48i0",
+        "at": "2026-07-07T10:51:45.288Z",
+        "type": "recebimento",
+        "item": "Juros Compostos",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "qgsxisikb1mr9uko59",
+        "at": "2026-07-06T23:24:41.661Z",
+        "type": "pagamento",
+        "item": "Sapato da Aylla",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "a8q83stwn39mr9u66ax",
+        "at": "2026-07-06T23:13:25.353Z",
+        "type": "recebimento",
+        "item": "Reembolso da Casa",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "eqaijbx8qmwmr9ltetm",
+        "at": "2026-07-06T19:19:32.938Z",
+        "type": "pagamento",
+        "item": "Bolo de Pote",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "lqptvvh7u59mr99yyzb",
+        "at": "2026-07-06T13:47:56.951Z",
+        "type": "pagamento",
+        "item": "Livro da Aylla",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "e3a5kbhnz7lmr8eqn3t",
+        "at": "2026-07-05T23:13:40.217Z",
+        "type": "pagamento",
+        "item": "Diferença do meu saldo em conta",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "kcbgckvx6wemr8eoxoq",
+        "at": "2026-07-05T23:12:20.618Z",
+        "type": "exclusão",
+        "item": "Juros Compostos",
+        "oldValue": {
+          "name": "Juros Compostos",
+          "amount": 5.37,
+          "category": "Lucros ",
+          "payment": "Pix",
+          "dueDay": 10,
+          "reimbursable": false
+        },
+        "newValue": {
+          "scope": "all"
+        },
+        "month": 0
+      },
+      {
+        "id": "w5kub5alyv8mr8eodi1",
+        "at": "2026-07-05T23:11:54.457Z",
+        "type": "recebimento",
+        "item": "Juros Compostos",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "zyaxpyv5m3emr8emctm",
+        "at": "2026-07-05T23:10:20.266Z",
+        "type": "pagamento",
+        "item": "Pix pra Maria Alice",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "wpyb1in6hzmr8eg6yg",
+        "at": "2026-07-05T23:05:32.728Z",
+        "type": "pagamento",
+        "item": "Prova da Aylla",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "aj92v4igpncmr8edpab",
+        "at": "2026-07-05T23:03:36.515Z",
+        "type": "pagamento",
+        "item": "Shoppe",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "a8oe7kv6uzmr8ebsnp",
+        "at": "2026-07-05T23:02:07.573Z",
+        "type": "pagamento",
+        "item": "Feira de Empreendorismo (Aylla)",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "nshyl3mt109mr8dys4m",
+        "at": "2026-07-05T22:52:00.358Z",
+        "type": "pagamento",
+        "item": "Uber pra minha irmã",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "8p5ddkclru5mr8dypo4",
+        "at": "2026-07-05T22:51:57.172Z",
+        "type": "pagamento",
+        "item": "Pagar Marciel",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "y34e576ou8mr8dynv0",
+        "at": "2026-07-05T22:51:54.828Z",
+        "type": "exclusão de parcela",
+        "item": "Microondas",
+        "oldValue": {
+          "total": 2
+        },
+        "newValue": {
+          "total": 1
+        },
+        "month": 0
+      },
+      {
+        "id": "by0eoiab4d6mr8dsubw",
+        "at": "2026-07-05T22:47:23.276Z",
+        "type": "edição de parcela",
+        "item": "Bike Elétrica",
+        "oldValue": {
+          "name": "Bike Elétrica",
+          "amount": 7790,
+          "total": 10,
+          "payment": "nubank"
+        },
+        "newValue": {
+          "name": "Bike Elétrica",
+          "amount": 779,
+          "total": 10,
+          "payment": "nubank"
+        },
+        "month": 1
+      },
+      {
+        "id": "k93eiox1bimr8dsg4i",
+        "at": "2026-07-05T22:47:04.866Z",
+        "type": "edição de parcela",
+        "item": "Bike Elétrica",
+        "oldValue": {
+          "name": "Bike Elétrica",
+          "amount": 77900,
+          "total": 10,
+          "payment": "nubank"
+        },
+        "newValue": {
+          "name": "Bike Elétrica",
+          "amount": 7790,
+          "total": 10,
+          "payment": "nubank"
+        },
+        "month": 1
+      },
+      {
+        "id": "lwljaj920ccmr8dsail",
+        "at": "2026-07-05T22:46:57.597Z",
+        "type": "edição de parcela",
+        "item": "Bike Elétrica",
+        "oldValue": {
+          "name": "Bike Elétrica",
+          "amount": 7.79,
+          "total": 10,
+          "payment": "nubank"
+        },
+        "newValue": {
+          "name": "Bike Elétrica",
+          "amount": 77900,
+          "total": 10,
+          "payment": "nubank"
+        },
+        "month": 1
+      },
+      {
+        "id": "bjfxs8k4uj6mr8dl2bv",
+        "at": "2026-07-05T22:41:20.395Z",
+        "type": "pagamento",
+        "item": "Uber",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "ncxsxg0zqamr8dkdra",
+        "at": "2026-07-05T22:40:48.550Z",
+        "type": "pagamento",
+        "item": "Uber",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "w7c9kxu7s4mr8dk8gx",
+        "at": "2026-07-05T22:40:41.697Z",
+        "type": "edição",
+        "item": "Uber",
+        "oldValue": {
+          "name": "Uber",
+          "amount": 8.4,
+          "category": "Transporte ",
+          "payment": "Conta Corrente",
+          "dueDay": 10,
+          "reimbursable": false
+        },
+        "newValue": {
+          "name": "Uber",
+          "amount": 8.4,
+          "category": "Transporte ",
+          "payment": "c6bank",
+          "dueDay": 10,
+          "reimbursable": false
+        },
+        "month": 0
+      },
+      {
+        "id": "e4mh3cv5o2nmr8df00x",
+        "at": "2026-07-05T22:36:37.473Z",
+        "type": "pagamento",
+        "item": "Academia",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "dl8perqf9uhmr8deygq",
+        "at": "2026-07-05T22:36:35.450Z",
+        "type": "pagamento",
+        "item": "Óculos",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "kpduhnr3e6mr8dew2l",
+        "at": "2026-07-05T22:36:32.349Z",
+        "type": "pagamento",
+        "item": "Notebook",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "pgzrhxj3gghmr8deuym",
+        "at": "2026-07-05T22:36:30.910Z",
+        "type": "pagamento",
+        "item": "Guarda-Roupa",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "dw5my2tbwphmr8deunw",
+        "at": "2026-07-05T22:36:30.524Z",
+        "type": "pagamento",
+        "item": "Transporte de Ônibus",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "iv43czg04lkmr8deucp",
+        "at": "2026-07-05T22:36:30.121Z",
+        "type": "pagamento",
+        "item": "Transporte",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "rnjsap65oqmr8detwz",
+        "at": "2026-07-05T22:36:29.555Z",
+        "type": "pagamento",
+        "item": "Nubank (fatura)",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "j1tzyno4b6bmr8desvi",
+        "at": "2026-07-05T22:36:28.206Z",
+        "type": "pagamento",
+        "item": "Hambúrguer",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "bizwi2j65tkmr8desb0",
+        "at": "2026-07-05T22:36:27.468Z",
+        "type": "pagamento",
+        "item": "Cabelo e Barba",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "srihfuylsr8mr8derzz",
+        "at": "2026-07-05T22:36:27.071Z",
+        "type": "pagamento",
+        "item": "Mercado",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "wbodv6m4sh8mr8der4r",
+        "at": "2026-07-05T22:36:25.947Z",
+        "type": "pagamento",
+        "item": "Pastel",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "gryrpjch9nemr8dequ6",
+        "at": "2026-07-05T22:36:25.566Z",
+        "type": "pagamento",
+        "item": "Janta (food)",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "85946rg4pfmr8deqg7",
+        "at": "2026-07-05T22:36:25.063Z",
+        "type": "pagamento",
+        "item": "Refrigerante",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "ji48un2oflmr8deq04",
+        "at": "2026-07-05T22:36:24.484Z",
+        "type": "pagamento",
+        "item": "Refrigerante",
+        "oldValue": "paid",
+        "newValue": "pending",
+        "month": 0
+      },
+      {
+        "id": "ha5guo57ui4mr8deoty",
+        "at": "2026-07-05T22:36:22.966Z",
+        "type": "pagamento",
+        "item": "Refrigerante",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "g1d2fq2rdfumr8deogi",
+        "at": "2026-07-05T22:36:22.482Z",
+        "type": "pagamento",
+        "item": "Hambúrguer",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "eaei878ertlmr8denio",
+        "at": "2026-07-05T22:36:21.264Z",
+        "type": "pagamento",
+        "item": "Almoço na Pós-Graduação",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "6fsn67wt5gcmr8demm6",
+        "at": "2026-07-05T22:36:20.094Z",
+        "type": "pagamento",
+        "item": "Mercado",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "u6odw0yyah9mr8dem9r",
+        "at": "2026-07-05T22:36:19.647Z",
+        "type": "pagamento",
+        "item": "Exame de vista",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "6yx02ugens4mr8delml",
+        "at": "2026-07-05T22:36:18.813Z",
+        "type": "pagamento",
+        "item": "Hambúrguer",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "jwfbnh9zgqgmr8dekoq",
+        "at": "2026-07-05T22:36:17.594Z",
+        "type": "pagamento",
+        "item": "Uber",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "lqmycp0up7jmr8dekbq",
+        "at": "2026-07-05T22:36:17.126Z",
+        "type": "pagamento",
+        "item": "Uber",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "n2wzwgixv4mr8dejyo",
+        "at": "2026-07-05T22:36:16.656Z",
+        "type": "pagamento",
+        "item": "Uber",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "60x83rvw5gmmr8deji6",
+        "at": "2026-07-05T22:36:16.062Z",
+        "type": "pagamento",
+        "item": "Refrigerante",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "sfr2t0wo7ybmr8deir7",
+        "at": "2026-07-05T22:36:15.091Z",
+        "type": "pagamento",
+        "item": "Pizza",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "9km7tjroz9emr8deicg",
+        "at": "2026-07-05T22:36:14.560Z",
+        "type": "pagamento",
+        "item": "Uber",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "iea02p7ry5mr8dehw3",
+        "at": "2026-07-05T22:36:13.971Z",
+        "type": "pagamento",
+        "item": "Uber",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "xxuyihlsjjmr8dehgv",
+        "at": "2026-07-05T22:36:13.423Z",
+        "type": "pagamento",
+        "item": "Uber",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "mldbaa24jomr8degj0",
+        "at": "2026-07-05T22:36:12.204Z",
+        "type": "pagamento",
+        "item": "Uber",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "gevw9gjpwrmr8deg56",
+        "at": "2026-07-05T22:36:11.706Z",
+        "type": "pagamento",
+        "item": "Uber",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "o1t47vq4y6rmr8defrn",
+        "at": "2026-07-05T22:36:11.219Z",
+        "type": "pagamento",
+        "item": "Uber",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "xdu07569xakmr8deevr",
+        "at": "2026-07-05T22:36:10.071Z",
+        "type": "pagamento",
+        "item": "Uber",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "n0u2t2nygpmr8deehw",
+        "at": "2026-07-05T22:36:09.572Z",
+        "type": "pagamento",
+        "item": "Uber",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "kievfwt5tfpmr8dee1n",
+        "at": "2026-07-05T22:36:08.987Z",
+        "type": "pagamento",
+        "item": "Uber",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "cr534rjf53smr8ded5m",
+        "at": "2026-07-05T22:36:07.834Z",
+        "type": "pagamento",
+        "item": "Hambúrguer",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "94tiys3n5lmr8decmp",
+        "at": "2026-07-05T22:36:07.153Z",
+        "type": "pagamento",
+        "item": "iFood",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "52c0z54e4wlmr8debnj",
+        "at": "2026-07-05T22:36:05.887Z",
+        "type": "pagamento",
+        "item": "Uber Praça do Papa",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "15i1hpl8gx6mr8deaq2",
+        "at": "2026-07-05T22:36:04.682Z",
+        "type": "pagamento",
+        "item": "Perfume",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "hjzhhgkystkmr8de9y9",
+        "at": "2026-07-05T22:36:03.681Z",
+        "type": "pagamento",
+        "item": "iFood Marmita",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "6otr9ptwmsamr8de9kc",
+        "at": "2026-07-05T22:36:03.181Z",
+        "type": "pagamento",
+        "item": "Uber",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "ryms6n7odnmr8de92a",
+        "at": "2026-07-05T22:36:02.530Z",
+        "type": "pagamento",
+        "item": "iFood",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "4qifqygvojfmr8de8bf",
+        "at": "2026-07-05T22:36:01.563Z",
+        "type": "pagamento",
+        "item": "Cinema",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "sonfd5c09zfmr8de7sf",
+        "at": "2026-07-05T22:36:00.879Z",
+        "type": "pagamento",
+        "item": "Spotify",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "zz0dkkzcn1rmr8de5hk",
+        "at": "2026-07-05T22:35:57.896Z",
+        "type": "pagamento",
+        "item": "Netflix",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "pcujfra689mr8de4ir",
+        "at": "2026-07-05T22:35:56.643Z",
+        "type": "pagamento",
+        "item": "Amazon Prime",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "0w71zp1burwmr8de3xd",
+        "at": "2026-07-05T22:35:55.873Z",
+        "type": "pagamento",
+        "item": "Apple",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "1whp27xjbeamr8de35p",
+        "at": "2026-07-05T22:35:54.877Z",
+        "type": "pagamento",
+        "item": "Google Drive",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "hpyee0jrycmmr8ddcyg",
+        "at": "2026-07-05T22:35:20.920Z",
+        "type": "edição mensal",
+        "item": "Transporte",
+        "oldValue": {
+          "name": "Transporte",
+          "amount": 200,
+          "category": "Transporte",
+          "payment": "Conta Corrente",
+          "dueDay": 10,
+          "reimbursable": false
+        },
+        "newValue": {
+          "name": "Transporte",
+          "amount": 80,
+          "category": "Transporte",
+          "payment": "inter",
+          "dueDay": 10,
+          "reimbursable": false
+        },
+        "month": 0
+      },
+      {
+        "id": "q8v6nds6hkmr8d8o4g",
+        "at": "2026-07-05T22:31:42.112Z",
+        "type": "recebimento",
+        "item": "Edição de vídeo",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "8gf6ocf06pjmr8d5xkw",
+        "at": "2026-07-05T22:29:34.400Z",
+        "type": "recebimento",
+        "item": "Edição de Vídeo",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "lz3gw7vo09lmr8d5igz",
+        "at": "2026-07-05T22:29:14.819Z",
+        "type": "recebimento",
+        "item": "Edição de Vídeo",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "brjuj6vya37mr8d52zy",
+        "at": "2026-07-05T22:28:54.766Z",
+        "type": "recebimento",
+        "item": "Edição de vídeo",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "esmfqnsb2lcmr8d2lh4",
+        "at": "2026-07-05T22:26:58.744Z",
+        "type": "pagamento",
+        "item": "Empréstimo",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "hyi8g5q5p97mr8d2jx1",
+        "at": "2026-07-05T22:26:56.725Z",
+        "type": "pagamento",
+        "item": "Apê / Aluguel",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "vsedn4g874mr8d2ixf",
+        "at": "2026-07-05T22:26:55.443Z",
+        "type": "pagamento",
+        "item": "Dentista",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      },
+      {
+        "id": "y9utwf275a8mr8d2gjx",
+        "at": "2026-07-05T22:26:52.365Z",
+        "type": "pagamento",
+        "item": "Condomínio",
+        "oldValue": "pending",
+        "newValue": "paid",
+        "month": 0
+      }
+    ]
+  }
+}
